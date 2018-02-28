@@ -40,6 +40,7 @@
 		F01EB0C62045841C003C3310 /* DLViewLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLViewLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01EB0CD2045841C003C3310 /* DLViewLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewLayoutTests.m; sourceTree = "<group>"; };
 		F01EB0CF2045841C003C3310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01EB12C20465C99003C3310 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = ViewLayout/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		F030FD1A202C1CAB003CEB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +81,14 @@
 			path = DLViewLayoutTests;
 			sourceTree = "<group>";
 		};
+		F01EB12B20465C98003C3310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F01EB12C20465C99003C3310 /* AsyncDisplayKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F030FD00202C1CAB003CEB51 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +96,7 @@
 				F01EB0BF2045841C003C3310 /* DLViewLayout */,
 				F01EB0CC2045841C003C3310 /* DLViewLayoutTests */,
 				F030FD0A202C1CAB003CEB51 /* Products */,
+				F01EB12B20465C98003C3310 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,6 +274,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ViewLayout",
 				);
 				INFOPLIST_FILE = DLViewLayout/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -290,6 +301,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ViewLayout",
 				);
 				INFOPLIST_FILE = DLViewLayout/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
