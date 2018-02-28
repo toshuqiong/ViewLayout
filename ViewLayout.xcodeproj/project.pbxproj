@@ -15,6 +15,7 @@
 		F01EB0DF20458541003C3310 /* DLListTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EB0AE20453C80003C3310 /* DLListTextStyle.m */; };
 		F01EB0E320458EA3003C3310 /* DLViewLayoutTags.h in Headers */ = {isa = PBXBuildFile; fileRef = F01EB0AA20453B3D003C3310 /* DLViewLayoutTags.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F01EB0E420458EA8003C3310 /* DLViewLayoutTags.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EB0AB20453B3D003C3310 /* DLViewLayoutTags.m */; };
+		F0659DC7204661B300CA52DE /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0659DC6204661B300CA52DE /* AsyncDisplayKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		F01EB0CF2045841C003C3310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F01EB12C20465C99003C3310 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = ViewLayout/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		F030FD1A202C1CAB003CEB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0659DC6204661B300CA52DE /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0659DC7204661B300CA52DE /* AsyncDisplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +87,7 @@
 		F01EB12B20465C98003C3310 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F0659DC6204661B300CA52DE /* AsyncDisplayKit.framework */,
 				F01EB12C20465C99003C3310 /* AsyncDisplayKit.framework */,
 			);
 			name = Frameworks;
@@ -275,6 +279,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/ViewLayout",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = DLViewLayout/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -302,6 +307,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/ViewLayout",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = DLViewLayout/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
