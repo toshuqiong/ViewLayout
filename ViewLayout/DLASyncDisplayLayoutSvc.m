@@ -153,7 +153,7 @@
             wrap = ASStackLayoutFlexWrapNoWrap;
         }
         
-        Spec = [ASStackLayoutSpec stackLayoutSpecWithDirection:direction spacing:0 justifyContent:justifyContent alignItems:alignItems children:childrenFields];
+        Spec = [ASStackLayoutSpec stackLayoutSpecWithDirection:direction spacing:0 justifyContent:justifyContent alignItems:alignItems flexWrap:wrap alignContent:ASStackLayoutAlignContentStretch lineSpacing:0 children:childrenFields];
         
         NSString *width = styleValue[DLMCWidthTag];
         if (width) {
