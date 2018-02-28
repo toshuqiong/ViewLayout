@@ -18,7 +18,6 @@
  *
  *  @param style xml文件样式
  *
- *  @return
  */
 - (instancetype)initWithStyle:(NSDictionary *)style;
 

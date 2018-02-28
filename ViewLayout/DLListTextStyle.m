@@ -6,6 +6,7 @@
 //
 
 #import "DLListTextStyle.h"
+#import "DLStyleService.h"
 
 @implementation DLListTextStyle
 
@@ -22,7 +23,7 @@
     
     return @{
              NSFontAttributeName:font ? font: [UIFont systemFontOfSize:13.0],
-             NSForegroundColorAttributeName: color ? color:[self colorFromHexString:@"#9d9d9d"],
+             NSForegroundColorAttributeName: color ? color:[DLStyleService colorFromHexString:@"#9d9d9d"],
              NSParagraphStyleAttributeName:ps
              };
 }
@@ -40,7 +41,7 @@
 + (UIColor *)colorWithStyle:(NSDictionary *)style {
     NSString *color = style[@"color"];
     if (color) {
-        return [self colorFromHexString:color];
+        return [DLStyleService colorFromHexString:color];
     }
     return nil;
 }
@@ -57,21 +58,6 @@
         }
     }
     return NSTextAlignmentLeft;
-}
-
-+ (instancetype)colorFromHexString:(NSString *)hexString
-{
-    unsigned rgbValue = 0;
-    hexString = [hexString stringByReplacingOccurrencesOfString:@"#" withString:@""];
-    NSScanner *scanner = [NSScanner scannerWithString:hexString];
-    [scanner scanHexInt:&rgbValue];
-    
-    return [[self class] colorWithR:((rgbValue & 0xFF0000) >> 16) G:((rgbValue & 0xFF00) >> 8) B:(rgbValue & 0xFF) A:1.0];
-}
-
-+ (instancetype)colorWithR:(CGFloat)red G:(CGFloat)green B:(CGFloat)blue A:(CGFloat)alpha
-{
-    return [[self class] colorWithRed:red/255.0f green:green/255.0f blue:blue/255.0f alpha:alpha];
 }
 
 @end

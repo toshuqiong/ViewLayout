@@ -13,9 +13,11 @@
 		F01EB0DD204584CC003C3310 /* DLASyncDisplayLayoutSvc.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EB0B020453C80003C3310 /* DLASyncDisplayLayoutSvc.m */; };
 		F01EB0DE2045853B003C3310 /* DLListTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = F01EB0AD20453C80003C3310 /* DLListTextStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F01EB0DF20458541003C3310 /* DLListTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EB0AE20453C80003C3310 /* DLListTextStyle.m */; };
-		F01EB0E320458EA3003C3310 /* DLViewLayoutTags.h in Headers */ = {isa = PBXBuildFile; fileRef = F01EB0AA20453B3D003C3310 /* DLViewLayoutTags.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F01EB0E320458EA3003C3310 /* DLViewLayoutTags.h in Headers */ = {isa = PBXBuildFile; fileRef = F01EB0AA20453B3D003C3310 /* DLViewLayoutTags.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F01EB0E420458EA8003C3310 /* DLViewLayoutTags.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EB0AB20453B3D003C3310 /* DLViewLayoutTags.m */; };
 		F0659DC7204661B300CA52DE /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0659DC6204661B300CA52DE /* AsyncDisplayKit.framework */; };
+		F0659DCA20467CAB00CA52DE /* DLStyleService.h in Headers */ = {isa = PBXBuildFile; fileRef = F0659DC820467CAB00CA52DE /* DLStyleService.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F0659DCB20467CAB00CA52DE /* DLStyleService.m in Sources */ = {isa = PBXBuildFile; fileRef = F0659DC920467CAB00CA52DE /* DLStyleService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F01EB12C20465C99003C3310 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = ViewLayout/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		F030FD1A202C1CAB003CEB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0659DC6204661B300CA52DE /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
+		F0659DC820467CAB00CA52DE /* DLStyleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLStyleService.h; sourceTree = "<group>"; };
+		F0659DC920467CAB00CA52DE /* DLStyleService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLStyleService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				F030FD1A202C1CAB003CEB51 /* Info.plist */,
 				F01EB0AA20453B3D003C3310 /* DLViewLayoutTags.h */,
 				F01EB0AB20453B3D003C3310 /* DLViewLayoutTags.m */,
+				F0659DC820467CAB00CA52DE /* DLStyleService.h */,
+				F0659DC920467CAB00CA52DE /* DLStyleService.m */,
 			);
 			path = ViewLayout;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			files = (
 				F01EB0DC2045848A003C3310 /* DLASyncDisplayLayoutSvc.h in Headers */,
 				F01EB0DE2045853B003C3310 /* DLListTextStyle.h in Headers */,
+				F0659DCA20467CAB00CA52DE /* DLStyleService.h in Headers */,
 				F01EB0E320458EA3003C3310 /* DLViewLayoutTags.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01EB0DD204584CC003C3310 /* DLASyncDisplayLayoutSvc.m in Sources */,
+				F0659DCB20467CAB00CA52DE /* DLStyleService.m in Sources */,
 				F01EB0DF20458541003C3310 /* DLListTextStyle.m in Sources */,
 				F01EB0E420458EA8003C3310 /* DLViewLayoutTags.m in Sources */,
 			);
