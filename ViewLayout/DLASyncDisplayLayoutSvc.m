@@ -35,7 +35,7 @@
         node.style.width = ASDimensionMake([NSString stringWithFormat:@"%f%%",destWidth]);
     }
     
-    NSString *maxWidth = style[@"max-width"];
+    NSString *maxWidth = style[DLMCMaxWidthTag];
     node.style.maxWidth = ASDimensionMake(maxWidth);
     
     NSString *height = style[DLMCHeightTag];
@@ -86,13 +86,13 @@
                     [allStack addObject:stack];
                 }
             }else {
-//                if ([[item class] isSubclassOfClass:[ASImageNode class]]) {
-//                    ASRatioLayoutSpec *newImageNode = [ASRatioLayoutSpec ratioLayoutSpecWithRatio:1 child:item];
-//                    newImageNode.style.width = ((ASImageNode *)item).style.width;
-//                    [allStack addObject:newImageNode];
-//                }else {
-                    [allStack addObject:item];
-//                }
+                //                if ([[item class] isSubclassOfClass:[ASImageNode class]]) {
+                //                    ASRatioLayoutSpec *newImageNode = [ASRatioLayoutSpec ratioLayoutSpecWithRatio:1 child:item];
+                //                    newImageNode.style.width = ((ASImageNode *)item).style.width;
+                //                    [allStack addObject:newImageNode];
+                //                }else {
+                [allStack addObject:item];
+                //                }
                 
             }
         }
@@ -215,3 +215,4 @@
 }
 
 @end
+

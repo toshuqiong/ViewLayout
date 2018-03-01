@@ -40,4 +40,13 @@ extern NSString *const DLMCStyleTag;
 
 extern NSString *const DLMCChildrenFieldsTag;
 
+extern NSString *const DLMCPkKeyTag;
+
+extern NSString *const DLMCDestPageTag;
+
+extern NSString *const DLMCTextAlignTag;
+
+extern NSString *const DLMCMaxWidthTag;
+
 @end
+

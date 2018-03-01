@@ -30,7 +30,7 @@ NSString *const DLMCBackgroundColorTag = @"background-color";
 
 NSString *const DLMCWidthTag = @"width";
 
-NSString *const DLMCHeightTag = @"heght";
+NSString *const DLMCHeightTag = @"height";
 
 NSString *const DLMCFontSizeTag = @"fontsize";
 
@@ -40,5 +40,13 @@ NSString *const DLMCStyleTag = @"style";
 
 NSString *const DLMCChildrenFieldsTag = @"childrenFields";
 
+NSString *const DLMCPkKeyTag = @"pkkey";
+
+NSString *const DLMCDestPageTag = @"destpage";
+
+NSString *const DLMCTextAlignTag = @"text-align";
+
+NSString *const DLMCMaxWidthTag = @"max-width";
 
 @end
+

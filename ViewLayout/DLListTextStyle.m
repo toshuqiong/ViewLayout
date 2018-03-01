@@ -7,6 +7,7 @@
 
 #import "DLListTextStyle.h"
 #import "DLStyleService.h"
+#import "DLViewLayoutTags.h"
 
 @implementation DLListTextStyle
 
@@ -29,7 +30,7 @@
 }
 
 + (UIFont *)fontWithStyle:(NSDictionary *)style {
-    NSString *font = style[@"font-size"];
+    NSString *font = style[DLMCFontSizeTag];
     NSString *destfont = nil;
     if (font) {
         destfont = [font substringToIndex:font.length-2];
@@ -39,7 +40,7 @@
 }
 
 + (UIColor *)colorWithStyle:(NSDictionary *)style {
-    NSString *color = style[@"color"];
+    NSString *color = style[DLMCColorTag];
     if (color) {
         return [DLStyleService colorFromHexString:color];
     }
@@ -47,7 +48,7 @@
 }
 
 + (NSTextAlignment)textAlignWithStyle:(NSDictionary *)style {
-    NSString *textAlign = style[@"text-align"];
+    NSString *textAlign = style[DLMCTextAlignTag];
     if (textAlign) {
         if ([textAlign isEqualToString:@"center"]) {
             return NSTextAlignmentCenter;
