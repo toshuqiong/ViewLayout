@@ -32,7 +32,7 @@ NSString *const DLMCWidthTag = @"width";
 
 NSString *const DLMCHeightTag = @"height";
 
-NSString *const DLMCFontSizeTag = @"fontsize";
+NSString *const DLMCFontSizeTag = @"font-size";
 
 NSString *const DLMCColorTag = @"color";
 
