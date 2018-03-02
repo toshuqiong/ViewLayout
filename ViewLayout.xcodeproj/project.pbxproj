@@ -7,157 +7,254 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F01EB0C72045841C003C3310 /* DLViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01EB0BE2045841C003C3310 /* DLViewLayout.framework */; };
-		F01EB0CE2045841C003C3310 /* DLViewLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EB0CD2045841C003C3310 /* DLViewLayoutTests.m */; };
-		F01EB0DC2045848A003C3310 /* DLASyncDisplayLayoutSvc.h in Headers */ = {isa = PBXBuildFile; fileRef = F01EB0AF20453C80003C3310 /* DLASyncDisplayLayoutSvc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F01EB0DD204584CC003C3310 /* DLASyncDisplayLayoutSvc.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EB0B020453C80003C3310 /* DLASyncDisplayLayoutSvc.m */; };
-		F01EB0DE2045853B003C3310 /* DLListTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = F01EB0AD20453C80003C3310 /* DLListTextStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F01EB0DF20458541003C3310 /* DLListTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EB0AE20453C80003C3310 /* DLListTextStyle.m */; };
-		F01EB0E320458EA3003C3310 /* DLViewLayoutTags.h in Headers */ = {isa = PBXBuildFile; fileRef = F01EB0AA20453B3D003C3310 /* DLViewLayoutTags.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F01EB0E420458EA8003C3310 /* DLViewLayoutTags.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EB0AB20453B3D003C3310 /* DLViewLayoutTags.m */; };
-		F0659DC7204661B300CA52DE /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0659DC6204661B300CA52DE /* AsyncDisplayKit.framework */; };
-		F0659DCA20467CAB00CA52DE /* DLStyleService.h in Headers */ = {isa = PBXBuildFile; fileRef = F0659DC820467CAB00CA52DE /* DLStyleService.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F0659DCB20467CAB00CA52DE /* DLStyleService.m in Sources */ = {isa = PBXBuildFile; fileRef = F0659DC920467CAB00CA52DE /* DLStyleService.m */; };
+		F059BBDC20493020008DFB0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBDB20493020008DFB0B /* AppDelegate.m */; };
+		F059BBDF20493020008DFB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBDE20493020008DFB0B /* ViewController.m */; };
+		F059BBE220493020008DFB0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F059BBE020493020008DFB0B /* Main.storyboard */; };
+		F059BBE420493020008DFB0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F059BBE320493020008DFB0B /* Assets.xcassets */; };
+		F059BBE720493020008DFB0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F059BBE520493020008DFB0B /* LaunchScreen.storyboard */; };
+		F059BBEA20493020008DFB0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBE920493020008DFB0B /* main.m */; };
+		F059BBF820493094008DFB0B /* DLViewLayoutTags.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBF220493094008DFB0B /* DLViewLayoutTags.m */; };
+		F059BBF920493094008DFB0B /* DLListTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBF320493094008DFB0B /* DLListTextStyle.m */; };
+		F059BBFA20493094008DFB0B /* DLStyleService.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBF420493094008DFB0B /* DLStyleService.m */; };
+		F059BBFB20493094008DFB0B /* DLASyncDisplayLayoutSvc.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBF720493094008DFB0B /* DLASyncDisplayLayoutSvc.m */; };
+		F059BBFF20493316008DFB0B /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBFE20493316008DFB0B /* RXMLElement.m */; };
+		F059BC0520493589008DFB0B /* ConfigureFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BC0420493589008DFB0B /* ConfigureFileHelper.m */; };
+		F059BC08204937BF008DFB0B /* DLMessageCenterCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BC07204937BF008DFB0B /* DLMessageCenterCellNode.m */; };
+		F059BC0A20493922008DFB0B /* messageCenterPocketslh.xml in Resources */ = {isa = PBXBuildFile; fileRef = F059BC0920493922008DFB0B /* messageCenterPocketslh.xml */; };
+		F059BC0E20493A00008DFB0B /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC0D20493A00008DFB0B /* libxml2.2.tbd */; };
+		F059BC1020493A32008DFB0B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC0F20493A32008DFB0B /* libz.tbd */; };
+		F059BC18204941B5008DFB0B /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC012049332F008DFB0B /* AsyncDisplayKit.framework */; };
+		F059BC19204941B5008DFB0B /* AsyncDisplayKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC012049332F008DFB0B /* AsyncDisplayKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F059BC1A204941DE008DFB0B /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC1220493C10008DFB0B /* Masonry.framework */; };
+		F059BC1B204941DE008DFB0B /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC1220493C10008DFB0B /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F059BC25204944D8008DFB0B /* DLViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F059BC23204944D8008DFB0B /* DLViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F059BC28204944D8008DFB0B /* DLViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC21204944D7008DFB0B /* DLViewLayout.framework */; };
+		F059BC29204944D8008DFB0B /* DLViewLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC21204944D7008DFB0B /* DLViewLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F059BC2E204945D4008DFB0B /* DLASyncDisplayLayoutSvc.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBF720493094008DFB0B /* DLASyncDisplayLayoutSvc.m */; };
+		F059BC2F204945D6008DFB0B /* DLListTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBF320493094008DFB0B /* DLListTextStyle.m */; };
+		F059BC30204945D9008DFB0B /* DLStyleService.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBF420493094008DFB0B /* DLStyleService.m */; };
+		F059BC31204945DB008DFB0B /* DLViewLayoutTags.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBF220493094008DFB0B /* DLViewLayoutTags.m */; };
+		F059BC32204945F5008DFB0B /* DLASyncDisplayLayoutSvc.h in Headers */ = {isa = PBXBuildFile; fileRef = F059BBF620493094008DFB0B /* DLASyncDisplayLayoutSvc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F059BC33204945F9008DFB0B /* DLListTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = F059BBF120493094008DFB0B /* DLListTextStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F059BC34204945FC008DFB0B /* DLViewLayoutTags.h in Headers */ = {isa = PBXBuildFile; fileRef = F059BBF020493094008DFB0B /* DLViewLayoutTags.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F059BC3520494603008DFB0B /* DLStyleService.h in Headers */ = {isa = PBXBuildFile; fileRef = F059BBF520493094008DFB0B /* DLStyleService.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F059BC3620494670008DFB0B /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC0D20493A00008DFB0B /* libxml2.2.tbd */; };
+		F059BC3720494678008DFB0B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC0F20493A32008DFB0B /* libz.tbd */; };
+		F059BC38204946BF008DFB0B /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC012049332F008DFB0B /* AsyncDisplayKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F01EB0C82045841C003C3310 /* PBXContainerItemProxy */ = {
+		F059BC26204944D8008DFB0B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F030FD01202C1CAB003CEB51 /* Project object */;
+			containerPortal = F059BBCF20493020008DFB0B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F01EB0BD2045841C003C3310;
+			remoteGlobalIDString = F059BC20204944D7008DFB0B;
 			remoteInfo = DLViewLayout;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F059BC1720493F38008DFB0B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F059BC1B204941DE008DFB0B /* Masonry.framework in Embed Frameworks */,
+				F059BC19204941B5008DFB0B /* AsyncDisplayKit.framework in Embed Frameworks */,
+				F059BC29204944D8008DFB0B /* DLViewLayout.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		F01EB0AA20453B3D003C3310 /* DLViewLayoutTags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewLayoutTags.h; sourceTree = "<group>"; };
-		F01EB0AB20453B3D003C3310 /* DLViewLayoutTags.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewLayoutTags.m; sourceTree = "<group>"; };
-		F01EB0AD20453C80003C3310 /* DLListTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLListTextStyle.h; sourceTree = "<group>"; };
-		F01EB0AE20453C80003C3310 /* DLListTextStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLListTextStyle.m; sourceTree = "<group>"; };
-		F01EB0AF20453C80003C3310 /* DLASyncDisplayLayoutSvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLASyncDisplayLayoutSvc.h; sourceTree = "<group>"; };
-		F01EB0B020453C80003C3310 /* DLASyncDisplayLayoutSvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLASyncDisplayLayoutSvc.m; sourceTree = "<group>"; };
-		F01EB0BE2045841C003C3310 /* DLViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F01EB0C02045841C003C3310 /* DLViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewLayout.h; sourceTree = "<group>"; };
-		F01EB0C12045841C003C3310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F01EB0C62045841C003C3310 /* DLViewLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLViewLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F01EB0CD2045841C003C3310 /* DLViewLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewLayoutTests.m; sourceTree = "<group>"; };
-		F01EB0CF2045841C003C3310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F01EB12C20465C99003C3310 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = ViewLayout/AsyncDisplayKit.framework; sourceTree = "<group>"; };
-		F030FD1A202C1CAB003CEB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0659DC6204661B300CA52DE /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
-		F0659DC820467CAB00CA52DE /* DLStyleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLStyleService.h; sourceTree = "<group>"; };
-		F0659DC920467CAB00CA52DE /* DLStyleService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLStyleService.m; sourceTree = "<group>"; };
+		F059BBD720493020008DFB0B /* ViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F059BBDA20493020008DFB0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F059BBDB20493020008DFB0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F059BBDD20493020008DFB0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F059BBDE20493020008DFB0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F059BBE120493020008DFB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F059BBE320493020008DFB0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F059BBE620493020008DFB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F059BBE820493020008DFB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F059BBE920493020008DFB0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F059BBF020493094008DFB0B /* DLViewLayoutTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLViewLayoutTags.h; sourceTree = "<group>"; };
+		F059BBF120493094008DFB0B /* DLListTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLListTextStyle.h; sourceTree = "<group>"; };
+		F059BBF220493094008DFB0B /* DLViewLayoutTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLViewLayoutTags.m; sourceTree = "<group>"; };
+		F059BBF320493094008DFB0B /* DLListTextStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLListTextStyle.m; sourceTree = "<group>"; };
+		F059BBF420493094008DFB0B /* DLStyleService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLStyleService.m; sourceTree = "<group>"; };
+		F059BBF520493094008DFB0B /* DLStyleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLStyleService.h; sourceTree = "<group>"; };
+		F059BBF620493094008DFB0B /* DLASyncDisplayLayoutSvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLASyncDisplayLayoutSvc.h; sourceTree = "<group>"; };
+		F059BBF720493094008DFB0B /* DLASyncDisplayLayoutSvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLASyncDisplayLayoutSvc.m; sourceTree = "<group>"; };
+		F059BBFD20493316008DFB0B /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
+		F059BBFE20493316008DFB0B /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
+		F059BC012049332F008DFB0B /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
+		F059BC0320493589008DFB0B /* ConfigureFileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigureFileHelper.h; sourceTree = "<group>"; };
+		F059BC0420493589008DFB0B /* ConfigureFileHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigureFileHelper.m; sourceTree = "<group>"; };
+		F059BC06204937BF008DFB0B /* DLMessageCenterCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMessageCenterCellNode.h; sourceTree = "<group>"; };
+		F059BC07204937BF008DFB0B /* DLMessageCenterCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMessageCenterCellNode.m; sourceTree = "<group>"; };
+		F059BC0920493922008DFB0B /* messageCenterPocketslh.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = messageCenterPocketslh.xml; sourceTree = "<group>"; };
+		F059BC0B204939E6008DFB0B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		F059BC0D20493A00008DFB0B /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		F059BC0F20493A32008DFB0B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F059BC1220493C10008DFB0B /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
+		F059BC21204944D7008DFB0B /* DLViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F059BC23204944D8008DFB0B /* DLViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewLayout.h; sourceTree = "<group>"; };
+		F059BC24204944D8008DFB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F01EB0BA2045841C003C3310 /* Frameworks */ = {
+		F059BBD420493020008DFB0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0659DC7204661B300CA52DE /* AsyncDisplayKit.framework in Frameworks */,
+				F059BC1020493A32008DFB0B /* libz.tbd in Frameworks */,
+				F059BC0E20493A00008DFB0B /* libxml2.2.tbd in Frameworks */,
+				F059BC28204944D8008DFB0B /* DLViewLayout.framework in Frameworks */,
+				F059BC1A204941DE008DFB0B /* Masonry.framework in Frameworks */,
+				F059BC18204941B5008DFB0B /* AsyncDisplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F01EB0C32045841C003C3310 /* Frameworks */ = {
+		F059BC1D204944D7008DFB0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F01EB0C72045841C003C3310 /* DLViewLayout.framework in Frameworks */,
+				F059BC38204946BF008DFB0B /* AsyncDisplayKit.framework in Frameworks */,
+				F059BC3720494678008DFB0B /* libz.tbd in Frameworks */,
+				F059BC3620494670008DFB0B /* libxml2.2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F01EB0BF2045841C003C3310 /* DLViewLayout */ = {
+		F059BBCE20493020008DFB0B = {
 			isa = PBXGroup;
 			children = (
-				F01EB0C02045841C003C3310 /* DLViewLayout.h */,
-				F01EB0C12045841C003C3310 /* Info.plist */,
-			);
-			path = DLViewLayout;
-			sourceTree = "<group>";
-		};
-		F01EB0CC2045841C003C3310 /* DLViewLayoutTests */ = {
-			isa = PBXGroup;
-			children = (
-				F01EB0CD2045841C003C3310 /* DLViewLayoutTests.m */,
-				F01EB0CF2045841C003C3310 /* Info.plist */,
-			);
-			path = DLViewLayoutTests;
-			sourceTree = "<group>";
-		};
-		F01EB12B20465C98003C3310 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F0659DC6204661B300CA52DE /* AsyncDisplayKit.framework */,
-				F01EB12C20465C99003C3310 /* AsyncDisplayKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F030FD00202C1CAB003CEB51 = {
-			isa = PBXGroup;
-			children = (
-				F030FD0B202C1CAB003CEB51 /* ViewLayout */,
-				F01EB0BF2045841C003C3310 /* DLViewLayout */,
-				F01EB0CC2045841C003C3310 /* DLViewLayoutTests */,
-				F030FD0A202C1CAB003CEB51 /* Products */,
-				F01EB12B20465C98003C3310 /* Frameworks */,
+				F059BBD920493020008DFB0B /* ViewLayout */,
+				F059BC22204944D8008DFB0B /* DLViewLayout */,
+				F059BBD820493020008DFB0B /* Products */,
+				F059BC002049332E008DFB0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F030FD0A202C1CAB003CEB51 /* Products */ = {
+		F059BBD820493020008DFB0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F01EB0BE2045841C003C3310 /* DLViewLayout.framework */,
-				F01EB0C62045841C003C3310 /* DLViewLayoutTests.xctest */,
+				F059BBD720493020008DFB0B /* ViewLayout.app */,
+				F059BC21204944D7008DFB0B /* DLViewLayout.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F030FD0B202C1CAB003CEB51 /* ViewLayout */ = {
+		F059BBD920493020008DFB0B /* ViewLayout */ = {
 			isa = PBXGroup;
 			children = (
-				F01EB0AF20453C80003C3310 /* DLASyncDisplayLayoutSvc.h */,
-				F01EB0B020453C80003C3310 /* DLASyncDisplayLayoutSvc.m */,
-				F01EB0AD20453C80003C3310 /* DLListTextStyle.h */,
-				F01EB0AE20453C80003C3310 /* DLListTextStyle.m */,
-				F030FD1A202C1CAB003CEB51 /* Info.plist */,
-				F01EB0AA20453B3D003C3310 /* DLViewLayoutTags.h */,
-				F01EB0AB20453B3D003C3310 /* DLViewLayoutTags.m */,
-				F0659DC820467CAB00CA52DE /* DLStyleService.h */,
-				F0659DC920467CAB00CA52DE /* DLStyleService.m */,
+				F059BC0920493922008DFB0B /* messageCenterPocketslh.xml */,
+				F059BC06204937BF008DFB0B /* DLMessageCenterCellNode.h */,
+				F059BC07204937BF008DFB0B /* DLMessageCenterCellNode.m */,
+				F059BBFC20493316008DFB0B /* RaptureXML */,
+				F059BBF620493094008DFB0B /* DLASyncDisplayLayoutSvc.h */,
+				F059BBF720493094008DFB0B /* DLASyncDisplayLayoutSvc.m */,
+				F059BBF120493094008DFB0B /* DLListTextStyle.h */,
+				F059BBF320493094008DFB0B /* DLListTextStyle.m */,
+				F059BBF520493094008DFB0B /* DLStyleService.h */,
+				F059BBF420493094008DFB0B /* DLStyleService.m */,
+				F059BBF020493094008DFB0B /* DLViewLayoutTags.h */,
+				F059BBF220493094008DFB0B /* DLViewLayoutTags.m */,
+				F059BBDA20493020008DFB0B /* AppDelegate.h */,
+				F059BBDB20493020008DFB0B /* AppDelegate.m */,
+				F059BBDD20493020008DFB0B /* ViewController.h */,
+				F059BBDE20493020008DFB0B /* ViewController.m */,
+				F059BBE020493020008DFB0B /* Main.storyboard */,
+				F059BBE320493020008DFB0B /* Assets.xcassets */,
+				F059BBE520493020008DFB0B /* LaunchScreen.storyboard */,
+				F059BBE820493020008DFB0B /* Info.plist */,
+				F059BBE920493020008DFB0B /* main.m */,
+				F059BC0320493589008DFB0B /* ConfigureFileHelper.h */,
+				F059BC0420493589008DFB0B /* ConfigureFileHelper.m */,
 			);
 			path = ViewLayout;
+			sourceTree = "<group>";
+		};
+		F059BBFC20493316008DFB0B /* RaptureXML */ = {
+			isa = PBXGroup;
+			children = (
+				F059BBFD20493316008DFB0B /* RXMLElement.h */,
+				F059BBFE20493316008DFB0B /* RXMLElement.m */,
+			);
+			path = RaptureXML;
+			sourceTree = "<group>";
+		};
+		F059BC002049332E008DFB0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F059BC1220493C10008DFB0B /* Masonry.framework */,
+				F059BC0F20493A32008DFB0B /* libz.tbd */,
+				F059BC0D20493A00008DFB0B /* libxml2.2.tbd */,
+				F059BC0B204939E6008DFB0B /* libxml2.tbd */,
+				F059BC012049332F008DFB0B /* AsyncDisplayKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F059BC22204944D8008DFB0B /* DLViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F059BC23204944D8008DFB0B /* DLViewLayout.h */,
+				F059BC24204944D8008DFB0B /* Info.plist */,
+			);
+			path = DLViewLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F01EB0BB2045841C003C3310 /* Headers */ = {
+		F059BC1E204944D7008DFB0B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F01EB0DC2045848A003C3310 /* DLASyncDisplayLayoutSvc.h in Headers */,
-				F01EB0DE2045853B003C3310 /* DLListTextStyle.h in Headers */,
-				F0659DCA20467CAB00CA52DE /* DLStyleService.h in Headers */,
-				F01EB0E320458EA3003C3310 /* DLViewLayoutTags.h in Headers */,
+				F059BC25204944D8008DFB0B /* DLViewLayout.h in Headers */,
+				F059BC32204945F5008DFB0B /* DLASyncDisplayLayoutSvc.h in Headers */,
+				F059BC33204945F9008DFB0B /* DLListTextStyle.h in Headers */,
+				F059BC34204945FC008DFB0B /* DLViewLayoutTags.h in Headers */,
+				F059BC3520494603008DFB0B /* DLStyleService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F01EB0BD2045841C003C3310 /* DLViewLayout */ = {
+		F059BBD620493020008DFB0B /* ViewLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F01EB0D62045841C003C3310 /* Build configuration list for PBXNativeTarget "DLViewLayout" */;
+			buildConfigurationList = F059BBED20493020008DFB0B /* Build configuration list for PBXNativeTarget "ViewLayout" */;
 			buildPhases = (
-				F01EB0B92045841C003C3310 /* Sources */,
-				F01EB0BA2045841C003C3310 /* Frameworks */,
-				F01EB0BB2045841C003C3310 /* Headers */,
-				F01EB0BC2045841C003C3310 /* Resources */,
+				F059BBD320493020008DFB0B /* Sources */,
+				F059BBD420493020008DFB0B /* Frameworks */,
+				F059BBD520493020008DFB0B /* Resources */,
+				F059BC1720493F38008DFB0B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F059BC27204944D8008DFB0B /* PBXTargetDependency */,
+			);
+			name = ViewLayout;
+			productName = ViewLayout;
+			productReference = F059BBD720493020008DFB0B /* ViewLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F059BC20204944D7008DFB0B /* DLViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F059BC2A204944D8008DFB0B /* Build configuration list for PBXNativeTarget "DLViewLayout" */;
+			buildPhases = (
+				F059BC1C204944D7008DFB0B /* Sources */,
+				F059BC1D204944D7008DFB0B /* Frameworks */,
+				F059BC1E204944D7008DFB0B /* Headers */,
+				F059BC1F204944D7008DFB0B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -165,48 +262,29 @@
 			);
 			name = DLViewLayout;
 			productName = DLViewLayout;
-			productReference = F01EB0BE2045841C003C3310 /* DLViewLayout.framework */;
+			productReference = F059BC21204944D7008DFB0B /* DLViewLayout.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		F01EB0C52045841C003C3310 /* DLViewLayoutTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F01EB0D92045841C003C3310 /* Build configuration list for PBXNativeTarget "DLViewLayoutTests" */;
-			buildPhases = (
-				F01EB0C22045841C003C3310 /* Sources */,
-				F01EB0C32045841C003C3310 /* Frameworks */,
-				F01EB0C42045841C003C3310 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F01EB0C92045841C003C3310 /* PBXTargetDependency */,
-			);
-			name = DLViewLayoutTests;
-			productName = DLViewLayoutTests;
-			productReference = F01EB0C62045841C003C3310 /* DLViewLayoutTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F030FD01202C1CAB003CEB51 /* Project object */ = {
+		F059BBCF20493020008DFB0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = liyanqin;
 				TargetAttributes = {
-					F01EB0BD2045841C003C3310 = {
+					F059BBD620493020008DFB0B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					F01EB0C52045841C003C3310 = {
+					F059BC20204944D7008DFB0B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = F030FD08202C1CAB003CEB51;
 					};
 				};
 			};
-			buildConfigurationList = F030FD04202C1CAB003CEB51 /* Build configuration list for PBXProject "ViewLayout" */;
+			buildConfigurationList = F059BBD220493020008DFB0B /* Build configuration list for PBXProject "ViewLayout" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,26 +292,30 @@
 				en,
 				Base,
 			);
-			mainGroup = F030FD00202C1CAB003CEB51;
-			productRefGroup = F030FD0A202C1CAB003CEB51 /* Products */;
+			mainGroup = F059BBCE20493020008DFB0B;
+			productRefGroup = F059BBD820493020008DFB0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F01EB0BD2045841C003C3310 /* DLViewLayout */,
-				F01EB0C52045841C003C3310 /* DLViewLayoutTests */,
+				F059BBD620493020008DFB0B /* ViewLayout */,
+				F059BC20204944D7008DFB0B /* DLViewLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F01EB0BC2045841C003C3310 /* Resources */ = {
+		F059BBD520493020008DFB0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F059BC0A20493922008DFB0B /* messageCenterPocketslh.xml in Resources */,
+				F059BBE720493020008DFB0B /* LaunchScreen.storyboard in Resources */,
+				F059BBE420493020008DFB0B /* Assets.xcassets in Resources */,
+				F059BBE220493020008DFB0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F01EB0C42045841C003C3310 /* Resources */ = {
+		F059BC1F204944D7008DFB0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -243,121 +325,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F01EB0B92045841C003C3310 /* Sources */ = {
+		F059BBD320493020008DFB0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F01EB0DD204584CC003C3310 /* DLASyncDisplayLayoutSvc.m in Sources */,
-				F0659DCB20467CAB00CA52DE /* DLStyleService.m in Sources */,
-				F01EB0DF20458541003C3310 /* DLListTextStyle.m in Sources */,
-				F01EB0E420458EA8003C3310 /* DLViewLayoutTags.m in Sources */,
+				F059BBFB20493094008DFB0B /* DLASyncDisplayLayoutSvc.m in Sources */,
+				F059BBF920493094008DFB0B /* DLListTextStyle.m in Sources */,
+				F059BBFA20493094008DFB0B /* DLStyleService.m in Sources */,
+				F059BC0520493589008DFB0B /* ConfigureFileHelper.m in Sources */,
+				F059BC08204937BF008DFB0B /* DLMessageCenterCellNode.m in Sources */,
+				F059BBDF20493020008DFB0B /* ViewController.m in Sources */,
+				F059BBF820493094008DFB0B /* DLViewLayoutTags.m in Sources */,
+				F059BBFF20493316008DFB0B /* RXMLElement.m in Sources */,
+				F059BBEA20493020008DFB0B /* main.m in Sources */,
+				F059BBDC20493020008DFB0B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F01EB0C22045841C003C3310 /* Sources */ = {
+		F059BC1C204944D7008DFB0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F01EB0CE2045841C003C3310 /* DLViewLayoutTests.m in Sources */,
+				F059BC2E204945D4008DFB0B /* DLASyncDisplayLayoutSvc.m in Sources */,
+				F059BC2F204945D6008DFB0B /* DLListTextStyle.m in Sources */,
+				F059BC30204945D9008DFB0B /* DLStyleService.m in Sources */,
+				F059BC31204945DB008DFB0B /* DLViewLayoutTags.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F01EB0C92045841C003C3310 /* PBXTargetDependency */ = {
+		F059BC27204944D8008DFB0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F01EB0BD2045841C003C3310 /* DLViewLayout */;
-			targetProxy = F01EB0C82045841C003C3310 /* PBXContainerItemProxy */;
+			target = F059BC20204944D7008DFB0B /* DLViewLayout */;
+			targetProxy = F059BC26204944D8008DFB0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		F059BBE020493020008DFB0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F059BBE120493020008DFB0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F059BBE520493020008DFB0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F059BBE620493020008DFB0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		F01EB0D72045841C003C3310 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/ViewLayout",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = DLViewLayout/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.slhlib.DLViewLayout;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F01EB0D82045841C003C3310 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/ViewLayout",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = DLViewLayout/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.slhlib.DLViewLayout;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F01EB0DA2045841C003C3310 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DLViewLayoutTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.slhlib.DLViewLayoutTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewLayout.app/ViewLayout";
-			};
-			name = Debug;
-		};
-		F01EB0DB2045841C003C3310 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DLViewLayoutTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.slhlib.DLViewLayoutTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewLayout.app/ViewLayout";
-			};
-			name = Release;
-		};
-		F030FD33202C1CAB003CEB51 /* Debug */ = {
+		F059BBEB20493020008DFB0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,7 +438,7 @@
 			};
 			name = Debug;
 		};
-		F030FD34202C1CAB003CEB51 /* Release */ = {
+		F059BBEC20493020008DFB0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -461,37 +487,127 @@
 			};
 			name = Release;
 		};
+		F059BBEE20493020008DFB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = "$(SDK_DIR)\"/usr/include/libxml2";
+				INFOPLIST_FILE = ViewLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slhlib.ViewLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F059BBEF20493020008DFB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = "$(SDK_DIR)\"/usr/include/libxml2";
+				INFOPLIST_FILE = ViewLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slhlib.ViewLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F059BC2B204944D8008DFB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = DLViewLayout/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slhlib.DLViewLayout;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F059BC2C204944D8008DFB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = DLViewLayout/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slhlib.DLViewLayout;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F01EB0D62045841C003C3310 /* Build configuration list for PBXNativeTarget "DLViewLayout" */ = {
+		F059BBD220493020008DFB0B /* Build configuration list for PBXProject "ViewLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F01EB0D72045841C003C3310 /* Debug */,
-				F01EB0D82045841C003C3310 /* Release */,
+				F059BBEB20493020008DFB0B /* Debug */,
+				F059BBEC20493020008DFB0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F01EB0D92045841C003C3310 /* Build configuration list for PBXNativeTarget "DLViewLayoutTests" */ = {
+		F059BBED20493020008DFB0B /* Build configuration list for PBXNativeTarget "ViewLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F01EB0DA2045841C003C3310 /* Debug */,
-				F01EB0DB2045841C003C3310 /* Release */,
+				F059BBEE20493020008DFB0B /* Debug */,
+				F059BBEF20493020008DFB0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F030FD04202C1CAB003CEB51 /* Build configuration list for PBXProject "ViewLayout" */ = {
+		F059BC2A204944D8008DFB0B /* Build configuration list for PBXNativeTarget "DLViewLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F030FD33202C1CAB003CEB51 /* Debug */,
-				F030FD34202C1CAB003CEB51 /* Release */,
+				F059BC2B204944D8008DFB0B /* Debug */,
+				F059BC2C204944D8008DFB0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F030FD01202C1CAB003CEB51 /* Project object */;
+	rootObject = F059BBCF20493020008DFB0B /* Project object */;
 }

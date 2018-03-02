@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F01EB0BD2045841C003C3310"
+               BlueprintIdentifier = "F059BC20204944D7008DFB0B"
                BuildableName = "DLViewLayout.framework"
                BlueprintName = "DLViewLayout"
                ReferencedContainer = "container:ViewLayout.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F01EB0BD2045841C003C3310"
+            BlueprintIdentifier = "F059BC20204944D7008DFB0B"
             BuildableName = "DLViewLayout.framework"
             BlueprintName = "DLViewLayout"
             ReferencedContainer = "container:ViewLayout.xcodeproj">
@@ -65,7 +65,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F01EB0BD2045841C003C3310"
+            BlueprintIdentifier = "F059BC20204944D7008DFB0B"
             BuildableName = "DLViewLayout.framework"
             BlueprintName = "DLViewLayout"
             ReferencedContainer = "container:ViewLayout.xcodeproj">

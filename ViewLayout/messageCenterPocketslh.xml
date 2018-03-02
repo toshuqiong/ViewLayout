@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mcconfig version="1.0">
+    
+    <!--        商圈订单和连连看订单 40-->
+    <section style="root" type="display" tagOne="40" destpage="20011-1" pkkey="orderId">
+        <field type="label" name="title" width="100%" color="#5eafff" font-size="13px"/>
+        <field type="label" name="text" width="100%" color="#3d4245" font-size="16px" margin-top="13"/>
+        
+        <field style="content" type="label" name="clientName" clabel="客户: " width="100%" margin-top="11"/>
+        <field style="content" type="label" name="phone" clabel="手机: " width="100%" margin-top="13"/>
+        
+        <field style="number" type="display">
+            <field style="content" type="label" clabel="共"/>
+            <field style="key" type="label" name="styleCount"/>
+            <field style="content" type="label" clabel="款"/>
+            <field style="key" type="label" name="totalSum" margin-left="10"/>
+            <field style="content" type="label" clabel="件"/>
+            <field style="content" type="label" clabel="合计: " margin-left="80"/>
+            <field style="key" type="label" name="totalSum" clabel="¥"/>
+        </field>
+        <field style="line" type="display"/>
+        <field style="detail" type="display">
+            <field type="label" clabel="查看详情" color="#3d4245" font-size="14px"/>
+            <field type="label" clabel=">" color="#999999" font-size="18px"/>
+        </field>
+        
+    </section>
+    
+    <style>
+        {
+        "root":{
+        "width":"100%",
+        "flex-direction":"row",
+        "flex-wrap":"wrap",
+        "align-items":"center",
+        "justify-content":"space-between"
+        },
+        "number":{
+        "width":"100%",
+        "flex-direction":"row",
+        "justify-content":"flex-start",
+        "flex-wrap":"no-wrap",
+        "align-items":"flex-start",
+        "margin-top":"20"
+        },
+        "content":{
+        "color":"#999999",
+        "font-size":"14px"
+        },
+        "key":{
+        "color":"#ff5500",
+        "font-size":"14px"
+        },
+        "line":{
+        "width":"100%",
+        "height":"1pt",
+        "margin-left":"14",
+        "margin-right":"14",
+        "background-color":"#eeeeee",
+        "margin-top":"10"
+        },
+        "detail":{
+        "width":"100%",
+        "flex-direction":"row",
+        "justify-content":"space-between",
+        "flex-wrap":"no-wrap",
+        "align-items":"center",
+        "margin-top":"10"
+        },
+        
+        }
+    </style>
+    
+</pocketslh>
+
+
+
