@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450EA606204D37C200BFC585 /* slh_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EA605204D37C200BFC585 /* slh_logo.png */; };
 		F059BBDC20493020008DFB0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBDB20493020008DFB0B /* AppDelegate.m */; };
 		F059BBDF20493020008DFB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBDE20493020008DFB0B /* ViewController.m */; };
 		F059BBE220493020008DFB0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F059BBE020493020008DFB0B /* Main.storyboard */; };
@@ -25,8 +26,6 @@
 		F059BC1020493A32008DFB0B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC0F20493A32008DFB0B /* libz.tbd */; };
 		F059BC18204941B5008DFB0B /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC012049332F008DFB0B /* AsyncDisplayKit.framework */; };
 		F059BC19204941B5008DFB0B /* AsyncDisplayKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC012049332F008DFB0B /* AsyncDisplayKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F059BC1A204941DE008DFB0B /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC1220493C10008DFB0B /* Masonry.framework */; };
-		F059BC1B204941DE008DFB0B /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC1220493C10008DFB0B /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F059BC25204944D8008DFB0B /* DLViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F059BC23204944D8008DFB0B /* DLViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F059BC28204944D8008DFB0B /* DLViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC21204944D7008DFB0B /* DLViewLayout.framework */; };
 		F059BC29204944D8008DFB0B /* DLViewLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC21204944D7008DFB0B /* DLViewLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -60,7 +59,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F059BC1B204941DE008DFB0B /* Masonry.framework in Embed Frameworks */,
 				F059BC19204941B5008DFB0B /* AsyncDisplayKit.framework in Embed Frameworks */,
 				F059BC29204944D8008DFB0B /* DLViewLayout.framework in Embed Frameworks */,
 			);
@@ -70,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		450EA605204D37C200BFC585 /* slh_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slh_logo.png; sourceTree = "<group>"; };
 		F059BBD720493020008DFB0B /* ViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F059BBDA20493020008DFB0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F059BBDB20493020008DFB0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,7 +98,6 @@
 		F059BC0B204939E6008DFB0B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		F059BC0D20493A00008DFB0B /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		F059BC0F20493A32008DFB0B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		F059BC1220493C10008DFB0B /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
 		F059BC21204944D7008DFB0B /* DLViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F059BC23204944D8008DFB0B /* DLViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewLayout.h; sourceTree = "<group>"; };
 		F059BC24204944D8008DFB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 				F059BC1020493A32008DFB0B /* libz.tbd in Frameworks */,
 				F059BC0E20493A00008DFB0B /* libxml2.2.tbd in Frameworks */,
 				F059BC28204944D8008DFB0B /* DLViewLayout.framework in Frameworks */,
-				F059BC1A204941DE008DFB0B /* Masonry.framework in Frameworks */,
 				F059BC18204941B5008DFB0B /* AsyncDisplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +173,7 @@
 				F059BBE920493020008DFB0B /* main.m */,
 				F059BC0320493589008DFB0B /* ConfigureFileHelper.h */,
 				F059BC0420493589008DFB0B /* ConfigureFileHelper.m */,
+				450EA605204D37C200BFC585 /* slh_logo.png */,
 			);
 			path = ViewLayout;
 			sourceTree = "<group>";
@@ -192,7 +190,6 @@
 		F059BC002049332E008DFB0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F059BC1220493C10008DFB0B /* Masonry.framework */,
 				F059BC0F20493A32008DFB0B /* libz.tbd */,
 				F059BC0D20493A00008DFB0B /* libxml2.2.tbd */,
 				F059BC0B204939E6008DFB0B /* libxml2.tbd */,
@@ -310,6 +307,7 @@
 			files = (
 				F059BC0A20493922008DFB0B /* messageCenterPocketslh.xml in Resources */,
 				F059BBE720493020008DFB0B /* LaunchScreen.storyboard in Resources */,
+				450EA606204D37C200BFC585 /* slh_logo.png in Resources */,
 				F059BBE420493020008DFB0B /* Assets.xcassets in Resources */,
 				F059BBE220493020008DFB0B /* Main.storyboard in Resources */,
 			);

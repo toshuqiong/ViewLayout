@@ -69,6 +69,17 @@
     return [self configureSpecMargin:node withStyle:style];
 }
 
+- (id<ASLayoutElement>)imageNodeWithContentItem:(NSMutableDictionary *)contentItem {
+    //    ASNetworkImageNode *node = [[ASNetworkImageNode alloc] initWithViewBlock:^UIView * _Nonnull{
+    //        UIImageView *imageView = [[UIImageView alloc] init];
+    //        return imageView;
+    //    }];
+    ASNetworkImageNode *node = [[ASNetworkImageNode alloc] init];
+    NSDictionary *style = [self styleWithContentItem:contentItem];
+    [self setupNode:node withStyle:style];
+    return [self configureSpecMargin:node withStyle:style];
+}
+
 /**
  *  @author liyanqin
  *

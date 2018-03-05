@@ -27,6 +27,18 @@
         
     </section>
     
+    <section style="root" type="display" tagOne="45" operate="link">
+        <field style="root" type="display">
+            <field style="image" width="50%" name="src" height="260pt"/>
+            <field width="49%"  color="#3d4245" font-size="16px" type="label" name="text" margin-top="12"/>
+        </field>
+        <field style="line" type="display"/>
+        <field style="detail" type="display">
+            <field type="label" clabel="查看详情" color="#3d4245" font-size="14px"/>
+            <field type="label" clabel=">" color="#999999" font-size="18px"/>
+        </field>
+    </section>
+    
     <style>
         {
         "root":{

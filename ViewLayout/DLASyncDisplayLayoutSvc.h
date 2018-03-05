@@ -25,6 +25,8 @@
 
 - (id<ASLayoutElement>)displayNodeWithContentItem:(NSDictionary *)contentItem;
 
+- (id<ASLayoutElement>)imageNodeWithContentItem:(NSMutableDictionary *)contentItem;
+
 - (ASLayoutSpec *)layoutWithNodeItem:(NSMutableDictionary *)nodeItem;
 
 - (NSDictionary *)styleWithContentItem:(NSMutableDictionary *)contentItem;
