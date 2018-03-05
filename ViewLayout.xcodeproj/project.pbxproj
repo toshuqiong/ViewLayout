@@ -21,6 +21,10 @@
 		452D48F6204D1AAB00F4AFDE /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48E9204D1A9000F4AFDE /* PINRemoteImage.framework */; };
 		452D48F8204D1AE800F4AFDE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48F7204D1AE800F4AFDE /* Masonry.framework */; };
 		452D48F9204D1AE800F4AFDE /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48F7204D1AE800F4AFDE /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		452D490F204D24EE00F4AFDE /* AsyncDisplayKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 452D48E7204D1A9000F4AFDE /* AsyncDisplayKit.framework */; };
+		452D4910204D24EE00F4AFDE /* PINCache.framework in Resources */ = {isa = PBXBuildFile; fileRef = 452D48E8204D1A9000F4AFDE /* PINCache.framework */; };
+		452D4911204D24EE00F4AFDE /* PINOperation.framework in Resources */ = {isa = PBXBuildFile; fileRef = 452D48EA204D1A9000F4AFDE /* PINOperation.framework */; };
+		452D4912204D24EE00F4AFDE /* PINRemoteImage.framework in Resources */ = {isa = PBXBuildFile; fileRef = 452D48E9204D1A9000F4AFDE /* PINRemoteImage.framework */; };
 		F059BBDC20493020008DFB0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBDB20493020008DFB0B /* AppDelegate.m */; };
 		F059BBDF20493020008DFB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBDE20493020008DFB0B /* ViewController.m */; };
 		F059BBE220493020008DFB0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F059BBE020493020008DFB0B /* Main.storyboard */; };
@@ -49,6 +53,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		452D4909204D220000F4AFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B35061DA1B010EDF0018CF92;
+			remoteInfo = AsyncDisplayKit;
+		};
+		452D490B204D220000F4AFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 058D09BC195D04C000B7D73C;
+			remoteInfo = AsyncDisplayKitTests;
+		};
+		452D490D204D220000F4AFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 057D02BF1AC0A66700C7AC3C;
+			remoteInfo = AsyncDisplayKitTestHost;
+		};
 		F059BC26204944D8008DFB0B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F059BBCF20493020008DFB0B /* Project object */;
@@ -83,6 +108,7 @@
 		452D48E9204D1A9000F4AFDE /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PINRemoteImage.framework; sourceTree = "<group>"; };
 		452D48EA204D1A9000F4AFDE /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PINOperation.framework; sourceTree = "<group>"; };
 		452D48F7204D1AE800F4AFDE /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
+		452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AsyncDisplayKit.xcodeproj; path = ../../shuqiong/lib/Texture/AsyncDisplayKit.xcodeproj; sourceTree = "<group>"; };
 		F059BBD720493020008DFB0B /* ViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F059BBDA20493020008DFB0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F059BBDB20493020008DFB0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -161,6 +187,16 @@
 			path = "Support Files";
 			sourceTree = "<group>";
 		};
+		452D4904204D220000F4AFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				452D490A204D220000F4AFDE /* AsyncDisplayKit.framework */,
+				452D490C204D220000F4AFDE /* AsyncDisplayKitTests.xctest */,
+				452D490E204D220000F4AFDE /* AsyncDisplayKitTestHost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F059BBCE20493020008DFB0B = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +245,7 @@
 		F059BC002049332E008DFB0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */,
 				452D48F7204D1AE800F4AFDE /* Masonry.framework */,
 				452D48E7204D1A9000F4AFDE /* AsyncDisplayKit.framework */,
 				452D48E8204D1A9000F4AFDE /* PINCache.framework */,
@@ -323,6 +360,12 @@
 			mainGroup = F059BBCE20493020008DFB0B;
 			productRefGroup = F059BBD820493020008DFB0B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 452D4904204D220000F4AFDE /* Products */;
+					ProjectRef = 452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F059BBD620493020008DFB0B /* ViewLayout */,
@@ -330,6 +373,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		452D490A204D220000F4AFDE /* AsyncDisplayKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AsyncDisplayKit.framework;
+			remoteRef = 452D4909204D220000F4AFDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		452D490C204D220000F4AFDE /* AsyncDisplayKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AsyncDisplayKitTests.xctest;
+			remoteRef = 452D490B204D220000F4AFDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		452D490E204D220000F4AFDE /* AsyncDisplayKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AsyncDisplayKitTestHost.app;
+			remoteRef = 452D490D204D220000F4AFDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F059BBD520493020008DFB0B /* Resources */ = {
@@ -347,6 +414,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452D490F204D24EE00F4AFDE /* AsyncDisplayKit.framework in Resources */,
+				452D4910204D24EE00F4AFDE /* PINCache.framework in Resources */,
+				452D4911204D24EE00F4AFDE /* PINOperation.framework in Resources */,
+				452D4912204D24EE00F4AFDE /* PINRemoteImage.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,7 +593,7 @@
 					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = "$(SDK_DIR)\"/usr/include/libxml2";
-				INFOPLIST_FILE = ViewLayout/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ViewLayout/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slhlib.ViewLayout;
@@ -542,7 +613,7 @@
 					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = "$(SDK_DIR)\"/usr/include/libxml2";
-				INFOPLIST_FILE = ViewLayout/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ViewLayout/Support Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slhlib.ViewLayout;

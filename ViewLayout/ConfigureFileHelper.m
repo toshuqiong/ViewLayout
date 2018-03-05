@@ -7,7 +7,7 @@
 //
 
 #import "ConfigureFileHelper.h"
-#import "RaptureXML/RXMLElement.h"
+#import "RXMLElement.h"
 #import "DLViewLayoutTags.h"
 
 static NSArray *sectionArray; //消息中心cell类型
