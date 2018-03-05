@@ -58,7 +58,18 @@
             [childrenNode addObject:subNode];
         }else if ([item[DLMCStyleTag] isEqualToString:@"display"]) {
             [childrenNode addObject:[self.layoutSvc displayNodeWithContentItem:item]];
-        }else {
+        } else if ([item[DLMCStyleTag] isEqualToString:@"image"]) {
+            id<ASLayoutElement> node = [self.layoutSvc imageNodeWithContentItem:item];
+            ASNetworkImageNode *imageNode = (ASNetworkImageNode *)node;
+            if ([imageNode isKindOfClass:[ASLayoutSpec class]]) {
+                imageNode = (ASNetworkImageNode *)((ASLayoutSpec *)imageNode).child;
+            }
+            imageNode.contentMode = UIViewContentModeScaleAspectFill;
+            imageNode.defaultImage = [UIImage imageNamed:@"slh_logo"];
+            imageNode.URL = [NSURL URLWithString:[self.cellData valueForKeyPath:item[@"name"]]];
+            [childrenNode addObject:node];
+        }
+        else {
             NSDictionary *style = [self.layoutSvc styleWithContentItem:item];
             NSDictionary *attributes = [DLListTextStyle textNodeStyle:style];
             NSString *clabel = item[@"clabel"];

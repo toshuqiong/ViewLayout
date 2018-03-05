@@ -13,11 +13,9 @@
 #import "ConfigureFileHelper.h"
 #import "DLMessageCenterCellNode.h"
 
-@import Masonry;
-
 @interface ViewController () <ASTableDataSource,ASTableDelegate>
 
-@property (nonatomic, strong) NSDictionary *item;
+@property (nonatomic, strong) NSArray *source;
 
 @property (nonatomic, strong) ASTableNode *tableNode;
 
@@ -29,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _item = @{
+    _source = @[@{
         @"tagOne": @"40",
         @"unread": @"1",
         @"msgId": @"1",
@@ -43,13 +41,20 @@
             @"detCount": @"122",
             @"totalSum": @"2612",
             @"orderId": @"1123"
-        }
-        };
+            }
+        },
+        @{@"body": @{
+                  @"text": @"APP性能的优化，一直都是任重而道远，对于如今需要承载更多信息的APP来说更是突出，值得庆幸的苹果在这方面做得至少比安卓让开发者省心。UIKit 控件虽然在大多数情况下都能满足用户对于流畅性的需求，但有时候还是难以达到理想效果。",
+//                  @"src": @"http://ps.ssl.qhimg.com/dmfd/400_300_/t01959a351c5b317f86.jpg",
+                  @"src": @"http://www.cool80.com/img.cool80/i/png/217/02.png",
+                  @"url": @"http://texturegroup.org/docs/layout2-layoutspec-types.html#ascenterlayoutspec"
+                  },
+          @"tagOne": @"45"
+          }];
     [ConfigureFileHelper setupData];
     
     [self setupView];
 }
-
 
 
 - (void)setupView {
@@ -64,9 +69,7 @@
     
     _tableNode.view.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubnode:_tableNode];
-    [_tableNode.view mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
-    }];
+    _tableNode.view.frame = self.view.bounds;
 }
 
 #pragma mark - tablenode datasource
@@ -76,20 +79,21 @@
 }
 
 - (NSInteger)tableNode:(ASTableNode *)tableNode numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return _source.count;
 }
 
 - (ASCellNode *)tableNode:(ASTableNode *)tableNode nodeForRowAtIndexPath:(NSIndexPath *)indexPath {
-        NSDictionary *cellConfigure;
-        for (NSDictionary *sectionDic in [ConfigureFileHelper sectionArray]) {
-            if ([@"40" isEqualToString:sectionDic[@"tagOne"]]) {
-                cellConfigure = sectionDic;
-                break;
-            }
+    NSDictionary *item = _source[indexPath.row];
+    NSDictionary *cellConfigure;
+    for (NSDictionary *sectionDic in [ConfigureFileHelper sectionArray]) {
+        if ([item[@"tagOne"] isEqualToString:sectionDic[@"tagOne"]]) {
+            cellConfigure = sectionDic;
+            break;
         }
+    }
         
     //配置cell，如新订单
-    DLMessageCenterCellNode *cellNode = [[DLMessageCenterCellNode alloc] initWithConfigureContent:cellConfigure cellData:_item[@"body"]];
+    DLMessageCenterCellNode *cellNode = [[DLMessageCenterCellNode alloc] initWithConfigureContent:cellConfigure cellData:item[@"body"]];
     cellNode.horizonMargin = 27;
     cellNode.selectionStyle = UITableViewCellSelectionStyleNone;
     return cellNode;
