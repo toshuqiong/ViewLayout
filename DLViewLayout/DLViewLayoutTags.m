@@ -48,5 +48,7 @@ NSString *const DLMCTextAlignTag = @"text-align";
 
 NSString *const DLMCMaxWidthTag = @"max-width";
 
+NSString *const DLOperateTag = @"operate";
+
 @end
 

@@ -48,5 +48,7 @@ extern NSString *const DLMCTextAlignTag;
 
 extern NSString *const DLMCMaxWidthTag;
 
+extern NSString *const DLOperateTag;
+
 @end
 
