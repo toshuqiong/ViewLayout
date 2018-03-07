@@ -8,20 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		450EA606204D37C200BFC585 /* slh_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EA605204D37C200BFC585 /* slh_logo.png */; };
-		452D48EB204D1A9100F4AFDE /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48E7204D1A9000F4AFDE /* AsyncDisplayKit.framework */; };
-		452D48EC204D1A9100F4AFDE /* AsyncDisplayKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48E7204D1A9000F4AFDE /* AsyncDisplayKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		452D48ED204D1A9100F4AFDE /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48E8204D1A9000F4AFDE /* PINCache.framework */; };
-		452D48EE204D1A9100F4AFDE /* PINCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48E8204D1A9000F4AFDE /* PINCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		452D48EF204D1A9100F4AFDE /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48E9204D1A9000F4AFDE /* PINRemoteImage.framework */; };
-		452D48F0204D1A9100F4AFDE /* PINRemoteImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48E9204D1A9000F4AFDE /* PINRemoteImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		452D48F1204D1A9100F4AFDE /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48EA204D1A9000F4AFDE /* PINOperation.framework */; };
-		452D48F2204D1A9100F4AFDE /* PINOperation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48EA204D1A9000F4AFDE /* PINOperation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		452D48F8204D1AE800F4AFDE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48F7204D1AE800F4AFDE /* Masonry.framework */; };
-		452D48F9204D1AE800F4AFDE /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 452D48F7204D1AE800F4AFDE /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		452D490F204D24EE00F4AFDE /* AsyncDisplayKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 452D48E7204D1A9000F4AFDE /* AsyncDisplayKit.framework */; };
-		452D4910204D24EE00F4AFDE /* PINCache.framework in Resources */ = {isa = PBXBuildFile; fileRef = 452D48E8204D1A9000F4AFDE /* PINCache.framework */; };
-		452D4911204D24EE00F4AFDE /* PINOperation.framework in Resources */ = {isa = PBXBuildFile; fileRef = 452D48EA204D1A9000F4AFDE /* PINOperation.framework */; };
-		452D4912204D24EE00F4AFDE /* PINRemoteImage.framework in Resources */ = {isa = PBXBuildFile; fileRef = 452D48E9204D1A9000F4AFDE /* PINRemoteImage.framework */; };
+		459159C8204F9A2A00DF5766 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459159C7204F9A2A00DF5766 /* AsyncDisplayKit.framework */; };
+		459159C9204F9A5A00DF5766 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459159C7204F9A2A00DF5766 /* AsyncDisplayKit.framework */; };
 		F059BBDC20493020008DFB0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBDB20493020008DFB0B /* AppDelegate.m */; };
 		F059BBDF20493020008DFB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBDE20493020008DFB0B /* ViewController.m */; };
 		F059BBE220493020008DFB0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F059BBE020493020008DFB0B /* Main.storyboard */; };
@@ -34,8 +22,6 @@
 		F059BC0A20493922008DFB0B /* messageCenterPocketslh.xml in Resources */ = {isa = PBXBuildFile; fileRef = F059BC0920493922008DFB0B /* messageCenterPocketslh.xml */; };
 		F059BC0E20493A00008DFB0B /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC0D20493A00008DFB0B /* libxml2.2.tbd */; };
 		F059BC1020493A32008DFB0B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC0F20493A32008DFB0B /* libz.tbd */; };
-		F059BC18204941B5008DFB0B /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		F059BC19204941B5008DFB0B /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F059BC25204944D8008DFB0B /* DLViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F059BC23204944D8008DFB0B /* DLViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F059BC28204944D8008DFB0B /* DLViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC21204944D7008DFB0B /* DLViewLayout.framework */; };
 		F059BC29204944D8008DFB0B /* DLViewLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC21204944D7008DFB0B /* DLViewLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -52,27 +38,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		452D4909204D220000F4AFDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B35061DA1B010EDF0018CF92;
-			remoteInfo = AsyncDisplayKit;
-		};
-		452D490B204D220000F4AFDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 058D09BC195D04C000B7D73C;
-			remoteInfo = AsyncDisplayKitTests;
-		};
-		452D490D204D220000F4AFDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 057D02BF1AC0A66700C7AC3C;
-			remoteInfo = AsyncDisplayKitTestHost;
-		};
 		F059BC26204944D8008DFB0B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F059BBCF20493020008DFB0B /* Project object */;
@@ -89,13 +54,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				452D48F0204D1A9100F4AFDE /* PINRemoteImage.framework in Embed Frameworks */,
-				452D48EE204D1A9100F4AFDE /* PINCache.framework in Embed Frameworks */,
-				452D48F9204D1AE800F4AFDE /* Masonry.framework in Embed Frameworks */,
-				F059BC19204941B5008DFB0B /* (null) in Embed Frameworks */,
 				F059BC29204944D8008DFB0B /* DLViewLayout.framework in Embed Frameworks */,
-				452D48F2204D1A9100F4AFDE /* PINOperation.framework in Embed Frameworks */,
-				452D48EC204D1A9100F4AFDE /* AsyncDisplayKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,12 +63,7 @@
 
 /* Begin PBXFileReference section */
 		450EA605204D37C200BFC585 /* slh_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slh_logo.png; sourceTree = "<group>"; };
-		452D48E7204D1A9000F4AFDE /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AsyncDisplayKit.framework; sourceTree = "<group>"; };
-		452D48E8204D1A9000F4AFDE /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PINCache.framework; sourceTree = "<group>"; };
-		452D48E9204D1A9000F4AFDE /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PINRemoteImage.framework; sourceTree = "<group>"; };
-		452D48EA204D1A9000F4AFDE /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PINOperation.framework; sourceTree = "<group>"; };
-		452D48F7204D1AE800F4AFDE /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
-		452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AsyncDisplayKit.xcodeproj; path = ../../shuqiong/lib/Texture/AsyncDisplayKit.xcodeproj; sourceTree = "<group>"; };
+		459159C7204F9A2A00DF5766 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		F059BBD720493020008DFB0B /* ViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F059BBDA20493020008DFB0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F059BBDB20493020008DFB0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -149,14 +103,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F059BC1020493A32008DFB0B /* libz.tbd in Frameworks */,
+				459159C8204F9A2A00DF5766 /* AsyncDisplayKit.framework in Frameworks */,
 				F059BC0E20493A00008DFB0B /* libxml2.2.tbd in Frameworks */,
-				452D48F1204D1A9100F4AFDE /* PINOperation.framework in Frameworks */,
 				F059BC28204944D8008DFB0B /* DLViewLayout.framework in Frameworks */,
-				452D48EF204D1A9100F4AFDE /* PINRemoteImage.framework in Frameworks */,
-				452D48EB204D1A9100F4AFDE /* AsyncDisplayKit.framework in Frameworks */,
-				452D48F8204D1AE800F4AFDE /* Masonry.framework in Frameworks */,
-				452D48ED204D1A9100F4AFDE /* PINCache.framework in Frameworks */,
-				F059BC18204941B5008DFB0B /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459159C9204F9A5A00DF5766 /* AsyncDisplayKit.framework in Frameworks */,
 				F059BC3720494678008DFB0B /* libz.tbd in Frameworks */,
 				F059BC3620494670008DFB0B /* libxml2.2.tbd in Frameworks */,
 			);
@@ -183,16 +133,6 @@
 				F059BBE920493020008DFB0B /* main.m */,
 			);
 			path = "Support Files";
-			sourceTree = "<group>";
-		};
-		452D4904204D220000F4AFDE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				452D490A204D220000F4AFDE /* AsyncDisplayKit.framework */,
-				452D490C204D220000F4AFDE /* AsyncDisplayKitTests.xctest */,
-				452D490E204D220000F4AFDE /* AsyncDisplayKitTestHost.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F059BBCE20493020008DFB0B = {
@@ -244,12 +184,7 @@
 		F059BC002049332E008DFB0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */,
-				452D48F7204D1AE800F4AFDE /* Masonry.framework */,
-				452D48E7204D1A9000F4AFDE /* AsyncDisplayKit.framework */,
-				452D48E8204D1A9000F4AFDE /* PINCache.framework */,
-				452D48EA204D1A9000F4AFDE /* PINOperation.framework */,
-				452D48E9204D1A9000F4AFDE /* PINRemoteImage.framework */,
+				459159C7204F9A2A00DF5766 /* AsyncDisplayKit.framework */,
 				F059BC0F20493A32008DFB0B /* libz.tbd */,
 				F059BC0D20493A00008DFB0B /* libxml2.2.tbd */,
 				F059BC0B204939E6008DFB0B /* libxml2.tbd */,
@@ -359,12 +294,6 @@
 			mainGroup = F059BBCE20493020008DFB0B;
 			productRefGroup = F059BBD820493020008DFB0B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 452D4904204D220000F4AFDE /* Products */;
-					ProjectRef = 452D4903204D220000F4AFDE /* AsyncDisplayKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				F059BBD620493020008DFB0B /* ViewLayout */,
@@ -372,30 +301,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		452D490A204D220000F4AFDE /* AsyncDisplayKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AsyncDisplayKit.framework;
-			remoteRef = 452D4909204D220000F4AFDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		452D490C204D220000F4AFDE /* AsyncDisplayKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AsyncDisplayKitTests.xctest;
-			remoteRef = 452D490B204D220000F4AFDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		452D490E204D220000F4AFDE /* AsyncDisplayKitTestHost.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = AsyncDisplayKitTestHost.app;
-			remoteRef = 452D490D204D220000F4AFDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F059BBD520493020008DFB0B /* Resources */ = {
@@ -414,10 +319,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				452D490F204D24EE00F4AFDE /* AsyncDisplayKit.framework in Resources */,
-				452D4910204D24EE00F4AFDE /* PINCache.framework in Resources */,
-				452D4911204D24EE00F4AFDE /* PINOperation.framework in Resources */,
-				452D4912204D24EE00F4AFDE /* PINRemoteImage.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
