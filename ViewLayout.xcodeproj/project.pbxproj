@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		450EA606204D37C200BFC585 /* slh_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EA605204D37C200BFC585 /* slh_logo.png */; };
-		459159C8204F9A2A00DF5766 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459159C7204F9A2A00DF5766 /* AsyncDisplayKit.framework */; };
 		459159C9204F9A5A00DF5766 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459159C7204F9A2A00DF5766 /* AsyncDisplayKit.framework */; };
 		F059BBDC20493020008DFB0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBDB20493020008DFB0B /* AppDelegate.m */; };
 		F059BBDF20493020008DFB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBDE20493020008DFB0B /* ViewController.m */; };
@@ -23,8 +22,6 @@
 		F059BC0E20493A00008DFB0B /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC0D20493A00008DFB0B /* libxml2.2.tbd */; };
 		F059BC1020493A32008DFB0B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC0F20493A32008DFB0B /* libz.tbd */; };
 		F059BC25204944D8008DFB0B /* DLViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F059BC23204944D8008DFB0B /* DLViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F059BC28204944D8008DFB0B /* DLViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC21204944D7008DFB0B /* DLViewLayout.framework */; };
-		F059BC29204944D8008DFB0B /* DLViewLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC21204944D7008DFB0B /* DLViewLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F059BC2E204945D4008DFB0B /* DLASyncDisplayLayoutSvc.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBF720493094008DFB0B /* DLASyncDisplayLayoutSvc.m */; };
 		F059BC2F204945D6008DFB0B /* DLListTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBF320493094008DFB0B /* DLListTextStyle.m */; };
 		F059BC30204945D9008DFB0B /* DLStyleService.m in Sources */ = {isa = PBXBuildFile; fileRef = F059BBF420493094008DFB0B /* DLStyleService.m */; };
@@ -35,10 +32,14 @@
 		F059BC3520494603008DFB0B /* DLStyleService.h in Headers */ = {isa = PBXBuildFile; fileRef = F059BBF520493094008DFB0B /* DLStyleService.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F059BC3620494670008DFB0B /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC0D20493A00008DFB0B /* libxml2.2.tbd */; };
 		F059BC3720494678008DFB0B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC0F20493A32008DFB0B /* libz.tbd */; };
+		F0FB2E48204FDC3500931E2B /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459159C7204F9A2A00DF5766 /* AsyncDisplayKit.framework */; };
+		F0FB2E49204FDC3500931E2B /* AsyncDisplayKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 459159C7204F9A2A00DF5766 /* AsyncDisplayKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0FB2E4A204FDCF400931E2B /* DLViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC21204944D7008DFB0B /* DLViewLayout.framework */; };
+		F0FB2E4B204FDCF400931E2B /* DLViewLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F059BC21204944D7008DFB0B /* DLViewLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F059BC26204944D8008DFB0B /* PBXContainerItemProxy */ = {
+		F0FB2E4C204FDCF400931E2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F059BBCF20493020008DFB0B /* Project object */;
 			proxyType = 1;
@@ -54,7 +55,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F059BC29204944D8008DFB0B /* DLViewLayout.framework in Embed Frameworks */,
+				F0FB2E49204FDC3500931E2B /* AsyncDisplayKit.framework in Embed Frameworks */,
+				F0FB2E4B204FDCF400931E2B /* DLViewLayout.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,9 +105,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F059BC1020493A32008DFB0B /* libz.tbd in Frameworks */,
-				459159C8204F9A2A00DF5766 /* AsyncDisplayKit.framework in Frameworks */,
 				F059BC0E20493A00008DFB0B /* libxml2.2.tbd in Frameworks */,
-				F059BC28204944D8008DFB0B /* DLViewLayout.framework in Frameworks */,
+				F0FB2E48204FDC3500931E2B /* AsyncDisplayKit.framework in Frameworks */,
+				F0FB2E4A204FDCF400931E2B /* DLViewLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +241,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F059BC27204944D8008DFB0B /* PBXTargetDependency */,
+				F0FB2E4D204FDCF400931E2B /* PBXTargetDependency */,
 			);
 			name = ViewLayout;
 			productName = ViewLayout;
@@ -352,10 +354,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F059BC27204944D8008DFB0B /* PBXTargetDependency */ = {
+		F0FB2E4D204FDCF400931E2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F059BC20204944D7008DFB0B /* DLViewLayout */;
-			targetProxy = F059BC26204944D8008DFB0B /* PBXContainerItemProxy */;
+			targetProxy = F0FB2E4C204FDCF400931E2B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
